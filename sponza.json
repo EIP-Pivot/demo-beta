@@ -1,0 +1,34 @@
+{
+    "components": [
+        {
+            "RenderObject": {
+                "materialIndex": "",
+                "meshID": "sponza",
+                "pipelineID": "",
+                "transform": {
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        140.0,
+                        140.0,
+                        140.0
+                    ]
+                }
+            },
+            "Tag": {
+                "name": "sponza"
+            }
+        }
+    ],
+    "name": "Default",
+    "scripts": [],
+    "systems": []
+}
