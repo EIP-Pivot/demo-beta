@@ -1,0 +1,5 @@
+component Mdr = Number
+
+system onTickPhysics(entity<RenderObject>) event Tick(Number deltaTime)
+        print("delta", deltaTime)
+        print("entity", entity.RenderObject.meshID)
