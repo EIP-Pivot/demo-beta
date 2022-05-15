@@ -1,47 +1,49 @@
 {
-  "assets": [
-    "assets/sponza/sponza.gltf"
-  ],
-  "components": [
-    {
-      "RenderObject": {
-        "materialIndex": {
-          "asset": {
-            "name": ""
-          }
-        },
-        "meshID": {
-          "asset": {
-            "name": "sponza"
-          }
-        },
-        "pipelineID": "",
-        "transform": {
-          "position": [
-            0,
-            0,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "scale": [
-            140,
-            140,
-            140
-          ]
+    "assets": [
+        "assets/sponza/sponza.gltf"
+    ],
+    "components": [
+        {
+            "RenderObject": {
+                "materialIndex": {
+                    "asset": {
+                        "name": ""
+                    }
+                },
+                "meshID": {
+                    "asset": {
+                        "name": "sponza"
+                    }
+                },
+                "pipelineID": ""
+            },
+                "Transform": {
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        140.0,
+                        140.0,
+                        140.0
+                    ]
+                },
+            "Tag": {
+                "name": "sponza"
+            }
         }
-      },
-      "Tag": {
-        "name": "sponza"
-      }
-    }
-  ],
-  "name": "Sponza",
-  "scripts": [
-    "scripts/test.pivot"
-  ],
-  "systems": []
+    ],
+    "name": "Sponza",
+    "scripts": [
+        "scripts/test.pivotscript"
+    ],
+    "systems": [
+        "onTickPhysics"
+    ]
 }
