@@ -1,0 +1,12 @@
+component Growable
+	Number rate
+
+#system grow(entity<Growable,Transform>) event KeyPress(String key)
+#	if key == "G"
+#		print("GROW")
+#		entity.Transform.scale = entity.Transform.scale * entity.Growable.rate
+
+system growTick(entity<Growable,Transform>) event Tick(Number delta)
+	print("delta", delta)
+	print("rate", entity.Growable.rate)
+	entity.Transform.scale = entity.Transform.scale * (1 + ((entity.Growable.rate - 1) * delta))
