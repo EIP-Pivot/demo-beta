@@ -3,5 +3,4 @@ component Mdr = Number
 system onTickPhysics(entity<RenderObject>) event Tick(Number delta)
         print("delta", delta)
         print("entity", entity.RenderObject.meshID)
-        isPressed("A")
-        print("key A")
+        print("key V", isPressed("V"))
