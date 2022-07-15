@@ -1,0 +1,2 @@
+system tickLog() event Tick(Number delta)
+    print("tick", delta)
