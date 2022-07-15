@@ -1,0 +1,39 @@
+{
+    "assets": [],
+    "components": [
+        {
+            "Tag": {
+                "name": "text"
+            },
+            "Text": {
+                "color": {
+                    "color": {
+                        "rgba": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "content": "Hello World!"
+            },
+            "Transform2D": {
+                "position": [
+                    300.0,
+                    300.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            }
+        }
+    ],
+    "name": "Text Demo",
+    "scripts": [],
+    "systems": [
+        "Draw Text System"
+    ]
+}
