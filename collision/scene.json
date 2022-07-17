@@ -1,0 +1,104 @@
+{
+    "assets": [
+        "cube.obj"
+    ],
+    "components": [
+        {
+            "Collidable": null,
+            "RenderObject": {
+                "materialIndex": {
+                    "asset": {
+                        "name": ""
+                    }
+                },
+                "meshID": {
+                    "asset": {
+                        "name": "cube"
+                    }
+                },
+                "pipelineID": ""
+            },
+            "Tag": {
+                "name": "static"
+            },
+            "Transform": {
+                "position": [
+                    189.20230102539063,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "Collidable": null,
+            "Gravity": {
+                "force": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "RenderObject": {
+                "materialIndex": {
+                    "asset": {
+                        "name": ""
+                    }
+                },
+                "meshID": {
+                    "asset": {
+                        "name": "cube"
+                    }
+                },
+                "pipelineID": ""
+            },
+            "RigidBody": {
+                "acceleration": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "velocity": [
+                    5.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "Tag": {
+                "name": "move"
+            },
+            "Transform": {
+                "position": [
+                    159.4702606201172,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        }
+    ],
+    "name": "Collision tests",
+    "scripts": [],
+    "systems": [
+        "Collision System",
+        "Physics System"
+    ]
+}

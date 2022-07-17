@@ -1,0 +1,45 @@
+{
+    "assets": [
+        "collision/cube.obj"
+    ],
+    "components": [
+        {
+            "RenderObject": {
+                "materialIndex": {
+                    "asset": {
+                        "name": "white"
+                    }
+                },
+                "meshID": {
+                    "asset": {
+                        "name": "cube"
+                    }
+                },
+                "pipelineID": ""
+            },
+            "Tag": {
+                "name": "test"
+            },
+            "Transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        }
+    ],
+    "name": "Default",
+    "scripts": [],
+    "systems": []
+}
