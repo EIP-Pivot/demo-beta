@@ -1,0 +1,86 @@
+{
+    "assets": [
+        "../collision/cube.obj"
+    ],
+    "components": [
+        {
+            "RenderObject": {
+                "materialIndex": {
+                    "asset": {
+                        "name": ""
+                    }
+                },
+                "meshID": {
+                    "asset": {
+                        "name": "cube"
+                    }
+                },
+                "pipelineID": "unlit"
+            },
+            "Tag": {
+                "name": "test"
+            },
+            "Transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "root": {
+                    "entity": null
+                },
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    10.0,
+                    10.0,
+                    10.0
+                ]
+            }
+        },
+        {
+            "RenderObject": {
+                "materialIndex": {
+                    "asset": {
+                        "name": ""
+                    }
+                },
+                "meshID": {
+                    "asset": {
+                        "name": "cube"
+                    }
+                },
+                "pipelineID": "unlit"
+            },
+            "Tag": {
+                "name": "follower"
+            },
+            "Transform": {
+                "position": [
+                    145.81643676757813,
+                    0.0,
+                    0.0
+                ],
+                "root": {
+                    "entity": 0
+                },
+                "rotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "scale": [
+                    3.0,
+                    3.0,
+                    3.0
+                ]
+            }
+        }
+    ],
+    "name": "Test follow",
+    "scripts": [],
+    "systems": []
+}
