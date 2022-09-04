@@ -1,0 +1,7 @@
+component TypeExample
+    String name = "bob" # Chaîne de caractères
+    Number rate = 0.3 # Nombre à virgule flottante
+    Integer size = 4 # Entier signé
+    Boolean enabled = true # Booléen
+    Vec3 position = vec3(1,2,3) # Vecteur à trois dimensions
+    Asset model = "assets/sponza.obj" # Resource présente sur le système de fichier
