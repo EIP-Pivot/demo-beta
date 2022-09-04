@@ -96,9 +96,12 @@
         }
     ],
     "name": "Collision tests",
-    "scripts": [],
+    "scripts": [
+        "collision.pivotscript"
+    ],
     "systems": [
         "Collision System",
-        "Physics System"
+        "Physics System",
+        "changeOnCollision"
     ]
 }

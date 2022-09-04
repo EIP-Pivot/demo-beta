@@ -1,2 +1,2 @@
-system changeOnCollision() event Collision(collider1<Transform>, collider2<Transform>)
-    print("collision script system")
+system changeOnCollision() event Collision(collider1<Transform,Tag>, collider2<Transform,Tag>)
+    print("changeOnCollision called for entity", collider1.Tag.name, "and entity", collider2.Tag.name)
