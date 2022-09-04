@@ -1,0 +1,52 @@
+{
+    "assets": [
+        "../collision/cube.obj"
+    ],
+    "components": [
+        {
+            "Growable": {
+                "rate": 1.1
+            },
+            "RenderObject": {
+                "materialIndex": {
+                    "asset": {
+                        "name": ""
+                    }
+                },
+                "meshID": {
+                    "asset": {
+                        "name": "cube"
+                    }
+                },
+                "pipelineID": ""
+            },
+            "Tag": {
+                "name": "Entity 0"
+            },
+            "Transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.348882794380188,
+                    1.348882794380188,
+                    1.348882794380188
+                ]
+            }
+        }
+    ],
+    "name": "Growable cube",
+    "scripts": [
+        "growable.pivotscript"
+    ],
+    "systems": [
+        "growTick"
+    ]
+}

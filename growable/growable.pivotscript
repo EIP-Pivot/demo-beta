@@ -7,6 +7,5 @@ component Growable
 #		entity.Transform.scale = entity.Transform.scale * entity.Growable.rate
 
 system growTick(entity<Growable,Transform>) event Tick(Number delta)
-	print("delta", delta)
-	print("rate", entity.Growable.rate)
+	print("Grow entity by rate", entity.Growable.rate)
 	entity.Transform.scale = entity.Transform.scale * (1 + ((entity.Growable.rate - 1) * delta))
