@@ -5,6 +5,13 @@
     "components": [
         {
             "Collidable": null,
+            "CollisionScale": {
+                "scale": [
+                    1.0,
+                    1.0,
+                    2.0
+                ]
+            },
             "RenderObject": {
                 "materialIndex": {
                     "asset": {
@@ -23,9 +30,9 @@
             },
             "Transform": {
                 "position": [
-                    189.20230102539063,
+                    24.394554138183594,
                     0.0,
-                    0.0
+                    -40.0
                 ],
                 "rotation": [
                     0.0,
@@ -41,6 +48,13 @@
         },
         {
             "Collidable": null,
+            "CollisionScale": {
+                "scale": [
+                    1.0,
+                    2.0,
+                    1.0
+                ]
+            },
             "Gravity": {
                 "force": [
                     0.0,
@@ -78,9 +92,9 @@
             },
             "Transform": {
                 "position": [
-                    159.4702606201172,
+                    -29.811853408813477,
                     0.0,
-                    0.0
+                    -40.0
                 ],
                 "rotation": [
                     0.0,
