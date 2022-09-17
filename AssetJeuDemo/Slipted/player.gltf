@@ -1,0 +1,309 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                8
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Head",
+            "translation" : [
+                0,
+                0.9941296577453613,
+                0
+            ]
+        },
+        {
+            "name" : "Arm.L",
+            "rotation" : [
+                -0.6116682887077332,
+                -4.188154534290334e-08,
+                0.34569817781448364,
+                0.711586058139801
+            ],
+            "translation" : [
+                2.2252940823364042e-07,
+                0.6770168542861938,
+                -5.791620694139965e-08
+            ]
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "Shoulder.L",
+            "rotation" : [
+                -1.531331008663983e-07,
+                -1.5454288515570624e-08,
+                0.7071068286895752,
+                0.7071068286895752
+            ],
+            "scale" : [
+                0.9999998807907104,
+                0.9999998807907104,
+                1
+            ],
+            "translation" : [
+                -1.4210853868169056e-14,
+                0.9941295385360718,
+                2.321090842856248e-14
+            ]
+        },
+        {
+            "name" : "Arm.R",
+            "rotation" : [
+                -0.6027526259422302,
+                -5.220396559479923e-08,
+                -0.35701555013656616,
+                0.7136030793190002
+            ],
+            "scale" : [
+                0.9999999403953552,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "translation" : [
+                2.255557092212257e-07,
+                0.6697531938552856,
+                -8.085795144552321e-09
+            ]
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "Shoulder.R",
+            "rotation" : [
+                2.2618860384682193e-07,
+                5.7601177161359374e-08,
+                -0.7071068286895752,
+                0.7071068286895752
+            ],
+            "translation" : [
+                0,
+                0.9941296577453613,
+                0
+            ]
+        },
+        {
+            "children" : [
+                0,
+                2,
+                4
+            ],
+            "name" : "Spine",
+            "rotation" : [
+                0,
+                1.1920928955078125e-07,
+                0,
+                1
+            ],
+            "translation" : [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "children" : [
+                5
+            ],
+            "name" : "Root"
+        },
+        {
+            "mesh" : 0,
+            "name" : "Player",
+            "skin" : 0
+        },
+        {
+            "children" : [
+                7,
+                6
+            ],
+            "name" : "Armature"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "PlayerText",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Player",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3,
+                        "JOINTS_0" : 4,
+                        "WEIGHTS_0" : 5
+                    },
+                    "indices" : 6,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "ColorsTexture",
+            "uri" : "Textures/ColorsTexture.png"
+        }
+    ],
+    "skins" : [
+        {
+            "inverseBindMatrices" : 7,
+            "joints" : [
+                6,
+                5,
+                0,
+                2,
+                1,
+                4,
+                3
+            ],
+            "name" : "Armature"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3288,
+            "max" : [
+                0.74669349193573,
+                2.8071234226226807,
+                0.6000000834465027
+            ],
+            "min" : [
+                -0.74952632188797,
+                0.00344693660736084,
+                -0.7783982157707214
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3288,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3288,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 3288,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5121,
+            "count" : 3288,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 3288,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5123,
+            "count" : 3288,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 7,
+            "type" : "MAT4"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 39456,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 39456,
+            "byteOffset" : 39456
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 52608,
+            "byteOffset" : 78912
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 26304,
+            "byteOffset" : 131520
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13152,
+            "byteOffset" : 157824
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 52608,
+            "byteOffset" : 170976
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6576,
+            "byteOffset" : 223584
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 448,
+            "byteOffset" : 230160
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9986
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 230608,
+            "uri" : "player.bin"
+        }
+    ]
+}

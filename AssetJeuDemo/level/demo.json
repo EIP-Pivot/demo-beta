@@ -1,0 +1,291 @@
+{
+    "assets": [
+        "..\\Slipted\\ekedalen.gltf",
+        "..\\Slipted\\ground.gltf",
+        "..\\Slipted\\player.gltf",
+        "..\\Slipted\\shape1.gltf",
+        "..\\Slipted\\shape2.gltf",
+        "..\\Slipted\\shape3.gltf",
+        "..\\Slipted\\skydome.gltf"
+    ],
+    "components": [
+        {
+            "RenderObject": {
+                "materialIndex": {
+                    "asset": {
+                        "name": ""
+                    }
+                },
+                "meshID": {
+                    "asset": {
+                        "name": "skydome"
+                    }
+                },
+                "pipelineID": "skybox"
+            },
+            "Tag": {
+                "name": "skydome"
+            },
+            "Transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "RenderObject": {
+                "materialIndex": {
+                    "asset": {
+                        "name": ""
+                    }
+                },
+                "meshID": {
+                    "asset": {
+                        "name": "ground"
+                    }
+                },
+                "pipelineID": ""
+            },
+            "Tag": {
+                "name": "ground"
+            },
+            "Transform": {
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "DirectionalLight": {
+                "color": [
+                    255.0,
+                    237.0,
+                    186.0
+                ],
+                "intensity": 0.01
+            },
+            "Tag": {
+                "name": "sun"
+            },
+            "Transform": {
+                "position": [
+                    0.0,
+                    1.8293700218200684,
+                    0.0
+                ],
+                "rotation": [
+                    -1.5121128171813325e-07,
+                    -0.25861772894859314,
+                    3.141590118408203
+                ],
+                "scale": [
+                    0.9999998807907104,
+                    0.9999964237213135,
+                    1.0
+                ]
+            }
+        },
+        {
+            "RenderObject": {
+                "materialIndex": {
+                    "asset": {
+                        "name": ""
+                    }
+                },
+                "meshID": {
+                    "asset": {
+                        "name": "ekedalen"
+                    }
+                },
+                "pipelineID": ""
+            },
+            "Tag": {
+                "name": "ekedalen"
+            },
+            "Transform": {
+                "position": [
+                    8.666584014892578,
+                    1.2311694622039795,
+                    3.285433769226074
+                ],
+                "rotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "RenderObject": {
+                "materialIndex": {
+                    "asset": {
+                        "name": ""
+                    }
+                },
+                "meshID": {
+                    "asset": {
+                        "name": "shape1"
+                    }
+                },
+                "pipelineID": ""
+            },
+            "Tag": {
+                "name": "shape1"
+            },
+            "Transform": {
+                "position": [
+                    8.573203086853027,
+                    2.264481782913208,
+                    1.0664851665496826
+                ],
+                "rotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "RenderObject": {
+                "materialIndex": {
+                    "asset": {
+                        "name": ""
+                    }
+                },
+                "meshID": {
+                    "asset": {
+                        "name": "shape2"
+                    }
+                },
+                "pipelineID": ""
+            },
+            "Tag": {
+                "name": "shape2"
+            },
+            "Transform": {
+                "position": [
+                    8.587383270263672,
+                    2.2441470623016357,
+                    3.473156452178955
+                ],
+                "rotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "RenderObject": {
+                "materialIndex": {
+                    "asset": {
+                        "name": ""
+                    }
+                },
+                "meshID": {
+                    "asset": {
+                        "name": "shape3"
+                    }
+                },
+                "pipelineID": ""
+            },
+            "Tag": {
+                "name": "shape3"
+            },
+            "Transform": {
+                "position": [
+                    8.598432540893555,
+                    2.2700746059417725,
+                    5.758424282073975
+                ],
+                "rotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "RenderObject": {
+                "materialIndex": {
+                    "asset": {
+                        "name": ""
+                    }
+                },
+                "meshID": {
+                    "asset": {
+                        "name": "player"
+                    }
+                },
+                "pipelineID": ""
+            },
+            "Tag": {
+                "name": "player"
+            },
+            "Transform": {
+                "position": [
+                    0.0,
+                    0.341303288936615,
+                    6.127555847167969
+                ],
+                "rotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        }
+    ],
+    "name": "demo",
+    "scripts": [],
+    "systems": []
+}

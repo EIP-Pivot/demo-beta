@@ -1,0 +1,263 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                7,
+                8
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Head",
+            "translation" : [
+                0,
+                0.9941296577453613,
+                0
+            ]
+        },
+        {
+            "name" : "Arm.L",
+            "rotation" : [
+                -0.6116682887077332,
+                -4.188154534290334e-08,
+                0.34569817781448364,
+                0.711586058139801
+            ],
+            "translation" : [
+                2.2252940823364042e-07,
+                0.6770168542861938,
+                -5.791620694139965e-08
+            ]
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "Shoulder.L",
+            "rotation" : [
+                -1.531331008663983e-07,
+                -1.5454288515570624e-08,
+                0.7071068286895752,
+                0.7071068286895752
+            ],
+            "scale" : [
+                0.9999998807907104,
+                0.9999998807907104,
+                1
+            ],
+            "translation" : [
+                -1.4210853868169056e-14,
+                0.9941295385360718,
+                2.321090842856248e-14
+            ]
+        },
+        {
+            "name" : "Arm.R",
+            "rotation" : [
+                -0.6027526259422302,
+                -5.220396559479923e-08,
+                -0.35701555013656616,
+                0.7136030793190002
+            ],
+            "scale" : [
+                0.9999999403953552,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "translation" : [
+                2.255557092212257e-07,
+                0.6697531938552856,
+                -8.085795144552321e-09
+            ]
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "Shoulder.R",
+            "rotation" : [
+                2.2618860384682193e-07,
+                5.7601177161359374e-08,
+                -0.7071068286895752,
+                0.7071068286895752
+            ],
+            "translation" : [
+                0,
+                0.9941296577453613,
+                0
+            ]
+        },
+        {
+            "children" : [
+                0,
+                2,
+                4
+            ],
+            "name" : "Spine",
+            "rotation" : [
+                0,
+                1.1920928955078125e-07,
+                0,
+                1
+            ],
+            "translation" : [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "children" : [
+                5
+            ],
+            "name" : "Root"
+        },
+        {
+            "children" : [
+                6
+            ],
+            "name" : "Armature"
+        },
+        {
+            "mesh" : 0,
+            "name" : "Sphere",
+            "translation" : [
+                0.9562320709228516,
+                -0.5188078880310059,
+                -2.749582052230835
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "RedTex",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Sphere.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "red",
+            "uri" : "Textures/red.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1984,
+            "max" : [
+                1.000000238418579,
+                1,
+                1.0000003576278687
+            ],
+            "min" : [
+                -0.9999998211860657,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1984,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1984,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 1984,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 2880,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 23808,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23808,
+            "byteOffset" : 23808
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 31744,
+            "byteOffset" : 47616
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15872,
+            "byteOffset" : 79360
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5760,
+            "byteOffset" : 95232
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9986
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 100992,
+            "uri" : "test_pbr.bin"
+        }
+    ]
+}
