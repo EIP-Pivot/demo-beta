@@ -1,0 +1,68 @@
+{
+    "assets": [],
+    "components": [
+        {
+            "Tag": {
+                "name": "hello"
+            },
+            "Text": {
+                "color": {
+                    "color": {
+                        "rgba": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    }
+                },
+                "content": "Hello world!"
+            },
+            "Transform2D": {
+                "position": [
+                    1000.0,
+                    500.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "Tag": {
+                "name": "color"
+            },
+            "Text": {
+                "color": {
+                    "color": {
+                        "rgba": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "content": "Text in color!"
+            },
+            "Transform2D": {
+                "position": [
+                    1100.0,
+                    700.0
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            }
+        }
+    ],
+    "name": "Text demo",
+    "scripts": [],
+    "systems": [
+        "Draw Text System"
+    ]
+}
