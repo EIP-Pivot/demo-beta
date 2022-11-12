@@ -139,6 +139,39 @@
                     1.0
                 ]
             }
+        },
+        {
+            "Camera": {
+                "fov": 0.0,
+                "pitch": 3.5,
+                "yaw": -226.5
+            },
+            "SelectCameraOnKey": {
+                "key": "B"
+            },
+            "Tag": {
+                "name": "bottomCamera"
+            },
+            "Transform": {
+                "position": [
+                    180.83380126953125,
+                    78.50425720214844,
+                    -278.0440979003906
+                ],
+                "root": {
+                    "entity": null
+                },
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
         }
     ],
     "name": "Sponza",
