@@ -1,0 +1,7 @@
+component SelectCameraOnKey
+	String key
+
+system selectCameraOnKey(entity<SelectCameraOnKey,Camera>) event KeyPress(String key)
+	if key == entity.SelectCameraOnKey.key
+		print("Select camera", entity.id)
+		selectCamera(entity.id)

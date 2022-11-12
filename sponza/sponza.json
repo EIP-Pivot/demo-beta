@@ -26,6 +26,9 @@
                     0.0,
                     0.0
                 ],
+                "root": {
+                    "entity": null
+                },
                 "rotation": [
                     0.0,
                     0.0,
@@ -56,6 +59,9 @@
                     0.0,
                     0.0
                 ],
+                "root": {
+                    "entity": null
+                },
                 "rotation": [
                     2.7868242263793945,
                     -0.0,
@@ -74,6 +80,9 @@
                 "pitch": -8.5,
                 "yaw": 145.0
             },
+            "SelectCameraOnKey": {
+                "key": "C"
+            },
             "Tag": {
                 "name": "corridorCamera"
             },
@@ -83,6 +92,9 @@
                     688.2536010742188,
                     -467.9005126953125
                 ],
+                "root": {
+                    "entity": null
+                },
                 "rotation": [
                     0.0,
                     -0.0,
@@ -101,6 +113,9 @@
                 "pitch": -41.5,
                 "yaw": -180.0
             },
+            "SelectCameraOnKey": {
+                "key": "T"
+            },
             "Tag": {
                 "name": "topCamera"
             },
@@ -110,6 +125,9 @@
                     1340.0023193359375,
                     7.800833702087402
                 ],
+                "root": {
+                    "entity": null
+                },
                 "rotation": [
                     0.0,
                     -0.0,
@@ -125,9 +143,11 @@
     ],
     "name": "Sponza",
     "scripts": [
+        "camera.pivotscript",
         "scripts/test.pivotscript"
     ],
     "systems": [
-        "onTickPhysics"
+        "onTickPhysics",
+        "selectCameraOnKey"
     ]
 }
