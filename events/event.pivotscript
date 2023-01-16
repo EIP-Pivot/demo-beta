@@ -1,0 +1,7 @@
+event Log
+    String message
+
+system sendLog() event KeyPress(String key)
+    if key == "L"
+        print("send log")
+        emit Log("test message")

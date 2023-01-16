@@ -1,0 +1,2 @@
+system receiveLog() event Log(String message)
+    print("received message", message)

@@ -1,0 +1,13 @@
+{
+    "assets": [],
+    "name": "Default",
+    "scripts": [
+        "event.pivotscript",
+        "receive.pivotscript"
+    ],
+    "systems": [
+        "receiveLog",
+        "sendLog"
+    ],
+    "components": []
+}
